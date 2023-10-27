@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="voice_to_text"> 
+        <h1>ALL IN ONE ENGLISH</h1>
+        <p id="parrafoinicial">Seleccionar el parafo que quieres leer</p>
+        <select id="select_paragraph" class="styled-select">
+            <option value="paragraph1">simple present</option>
+            <option value="paragraph2">simple past</option>
+        </select>
+        
+        <button id="read_selected_paragraph" class="small-button">Selected Paragraph</button>
+        <textarea id="convert_text"></textarea>
+        <button id="click_to_record">Speak</button>
+        <button id="stop_recording">Stop</button>
+        
+        <!-- Botón de comprobación -->
+        <button id="comprobar_button">Comprobar</button>
+        <div id="mensaje_resultado"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="historias.js"></script>
+</body>
+</html>

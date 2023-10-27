@@ -1,0 +1,119 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 24px; /* Aumenté el tamaño de fuente a 24px */
+    margin: 0;
+    background: linear-gradient(to right bottom, #d13cff, #031f6a);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.voice_to_text {
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px; /* Aumenté el tamaño de fuente a 60px */
+}
+
+#convert_text {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 36px; /* Aumenta el tamaño de fuente a 36px */
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+}
+
+
+button {
+    padding: 12px 20px;
+    background: #0ea4da;
+    border: 0;
+    color: #fff;
+    font-size: 28px; /* Aumenté el tamaño de fuente a 28px */
+    cursor: pointer;
+    border-radius: 5px;
+}
+.small-button {
+    font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+    padding: 6px 10px; /* Ajusta el relleno para cambiar el tamaño del botón */
+    border-radius: 5px;
+    background: #0ea4da;
+    color: #fff;
+    cursor: pointer;
+}
+
+.styled-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 2px solid #0ea4da; /* Color del borde */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px; /* Tamaño de fuente */
+    width: 200px; /* Ancho del select */
+    color: #000000; /* Color del texto */
+    cursor: pointer;
+    background-color: #ffffff; /* Color de fondo */
+}
+
+/* Estilo cuando el usuario coloca el mouse sobre el select */
+.styled-select:hover {
+    border-color: #0077b3; /* Cambiar el color del borde al pasar el mouse */
+}
+#mensaje_resultado {
+    color: #000000; /* Color verde */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior para separar del contenido anterior */
+}
+
+/* Cambia el estilo del texto de los párrafos con borde blanco */
+.voice_to_text p {
+    color: #c7319a; /* Color del relleno del texto */
+    -webkit-text-stroke: 1px white; /* Borde blanco de 2px para WebKit (Chrome, Safari) */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo base para pantallas más grandes */
+body {
+    font-size: 16px;
+    /* Otros estilos */
+}
+
+/* Estilos específicos para pantallas más pequeñas (por ejemplo, teléfonos móviles) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Ajustes de estilo para pantallas más pequeñas */
+    }
+}
+#parrafoinicial {
+    font-size: 24px; /* Aumenta el tamaño de fuente a 24px */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: #a80505; /* Cambia el color del texto a un tono de naranja, puedes elegir otro color */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente, puedes elegir otra fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 40px; /* Agrega espacio en la parte superior para separar del contenido anterior */
+    /* Otros estilos */
+  }
+  
+  
+  
